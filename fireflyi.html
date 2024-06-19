@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div>
+        <div class="bg-container">
+            <div class="text">
+                <img class="logo" src="https://res.cloudinary.com/dcv59xrhj/image/upload/v1718601185/logo_stpdtm.svg" />
+                <h1 class="heading">The choice is yours.<br /> Because they don’t have one.</h1>
+                <button class="quick-btn">Quick View</button>
+            </div>
+        </div>
+        <div class="about-section">
+            <h2>About</h2>
+            <p>Our products are crafted exclusively from the dreams and screams of young kids who wanted to show their mastery in their chosen fields, but were directed towards a factory for daily wages. Each cracker bursts brighter than their lost smiles, and can be heard louder than their cries for miles. Buy them, burst them, brag about them.</p>
+            <p class="choice">The choice is yours. Because they don’t have one.</p>
+        </div>
+        <div class="about-section">
+            <h2>Our products</h2>
+        </div>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/dcv59xrhj/image/upload/v1718626459/WhatsApp_Image_2024-06-17_at_5.43.52_PM_nfheqo.jpg" alt="Raju Rassibomb">
+                <div class="product-info">
+                    <p class="product-title">Raju Rassibomb</p>
+                    <button class="quick-view" id="viewButton">QUICK VIEW</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/dcv59xrhj/image/upload/v1718626459/WhatsApp_Image_2024-06-17_at_5.43.52_PM_nfheqo.jpg" alt="Ladiyon ki Rani Chani">
+                <div class="product-info">
+                    <p class="product-title">Ladiyon ki Rani Chani</p>
+                    <button class="quick-view">QUICK VIEW</button>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="lotus"></div>
+                <div class="social-media">
+                    <p>Follow us on</p>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-square-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="lotus"></div>
+            </div>
+        </footer>
+
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="product-details">
+                    <img src="https://res.cloudinary.com/dcv59xrhj/image/upload/v1718626459/WhatsApp_Image_2024-06-17_at_5.43.52_PM_nfheqo.jpg" alt="Product Image" class="product-image">
+                    <div class="product-i">
+                        <h2>Raju Rassibomb</h2>
+                        <p><strong>MRP:</strong> Raju’s Dreams/-</p>
+                        <p><strong>Product Description:</strong></p>
+                        <p>This product packs an extra punch, thanks to the literal blood, sweat and tears of a young boy.</p>
+                        <p><strong>Product Contents:</strong></p>
+                        <ul>
+                            <li>10 hand-hurting pieces of rassi bombs</li>
+                            <li>Jilled with great pain</li>
+                            <li>Raju’s hopes</li>
+                        </ul>
+                        <p><strong>Shipping Time:</strong></p>
+                        <p>Before Raju understands that his dreams do not matter.</p>
+                        <button class="choose-button">Choose Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
